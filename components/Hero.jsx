@@ -14,7 +14,7 @@ export default function Hero() {
         operations runs <span className="textGradient">stainless</span>
       </h1>
       <p className="text-lg sm:text-xl md:text-2xl text-center w-full mx-auto max-w-[600px]">
-        Advanced and automated diagnostics let's us support you{" "}
+        {`Advanced and automated diagnostics let's us support you `}
         <span className="font-semibold">every day of every year.</span>
       </p>
       <CallToAction />

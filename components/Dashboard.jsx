@@ -136,7 +136,7 @@ export default function Dashboard() {
     return (
       <div className="flex items-center justify-center mt-60">
         <div className={"text-5xl text-center " + fugaz.className}>
-          You don't own any machines yet..
+          {`You don't own any machines yet..`}
           <p className={"text-3xl text-center mt-5 " + openSans.className}>
             If you are expecting to see some, contact us for support
           </p>
